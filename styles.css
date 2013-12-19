@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+body {
+  background-color: #333;
+  color: #bbb;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 300;
+}
+.stats {
+  width:40%;
+  float:right;
+  border:2px solid #555;
+  position:fixed;
+  top: 1em;
+  right: 1em; 
+}
+.progress-outer {
+  width: 60%;
+  float:right;
+  background-color: #555;
+}
+.progress-inner {
+  text-align:right;
+  background-color: #999;
+  color: #222;
+}
+ol.log {
+  width: 55%;
+  float:left;
+  border:2px solid #555;
+  margin-top:1em;
+}
+li {
+  display:block;
+  border-bottom:1px solid #555;
+  padding:0.5em;
+}
+li:last-child {
+  border:none;
+  border-bottom-right-radius: 1em;
+}
+.clock {
+  float:right;
+  font-size:3em;
+  position:fixed;
+  bottom: 0.5em;
+  right: 0.5em;
+}
+
+li.critical {
+  background-color: #cc3333;
+  color: #444;
+}
+li.info {
+  background-color: #33cc33;
+  color: #444;
+}
+
+li.shower {
+  background-color: #3333cc;
+}
+
+.superior {
+  color: white;
+}
+
+.sleep {
+  color: red;
+  text-align:center;
+  border:1px solid red;
+  float:right;
+  display:fixed;
+  top: 5em;
+}
